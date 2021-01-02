@@ -1,0 +1,25 @@
+{
+    "name": "cysnippets",
+    "displayName": "CYSnippets",
+    "description": "A complete cymbaline snippets collection",
+    "version": "0.0.1",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/gccg316/CYSnippets"
+	},
+    "icon": "icon.png",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
